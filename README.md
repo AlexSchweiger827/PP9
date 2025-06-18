@@ -206,6 +206,22 @@ graph TD
   ...
 ```
 
+```mermaid
+graph TD
+  A[Start: x] --> B[Initialize result = 1]
+  B --> C{i = 1 to x?}
+  C -- Yes --> D[Return result]
+  C -- No --> E{i % 2 == 0?}
+  E -- Yes --> F[result += i]
+  E -- No --> G[result *= i]
+  F --> H[result > 1000?]
+  G --> H
+  H -- Yes --> I[result -= 100]
+  H -- No --> J[Increment i]
+  I --> J
+  J --> C
+```
+
 ---
 
 **Remember:** Stop after **90 minutes** and record where you stopped.

@@ -224,7 +224,7 @@ graph TD
 
 flowchart function 2
 ```mermaid
- A[Start: *arr, len] --> B[initialize state = 0]
+ A[Start: arr, len] --> B[initialize state = 0]
     B --> C{Initialize i = 0}
     C --> D{i > len?}
 

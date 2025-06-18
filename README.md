@@ -77,21 +77,29 @@ cc -o solutions/use_switch solutions/use_switch.c
 Link to use_for.c
 
 ```
+use_for.c compiled and use_for test run
 
-![use_for.c Compiled](https://github.com/AlexSchweiger827/PP8/blob/master/PP8%20screenshots/Task%201%20compiled.PNG?raw=true)
+![use_for.c Compiled](https://github.com/AlexSchweiger827/PP9/blob/master/PP9%20screenshots/use_for%20compiled%20.PNG?raw=true)
 
 ```
 Link to use_if.c
 
+
+
 ```
-![use_for.c Compiled](https://github.com/AlexSchweiger827/PP8/blob/master/PP8%20screenshots/Task%201%20compiled.PNG?raw=true)
+use_if.c compiled and use_if test run
+
+![use_if.c Compiled](https://github.com/AlexSchweiger827/PP9/blob/master/PP9%20screenshots/use_if%20compiled.PNG?raw=true)
 
 ```
 Link to use_switch.c
 
 
 ```
-![use_for.c Compiled](https://github.com/AlexSchweiger827/PP8/blob/master/PP8%20screenshots/Task%201%20compiled.PNG?raw=true)
+use_switch.c compiled and use_switch test run
+
+![use_switch.c Compiled](https://github.com/AlexSchweiger827/PP9/blob/master/PP9%20screenshots/switch_case%20compiled.PNG?raw=true)
+
 ---
 
 ### Task 2: Flowchart Implementation (Mermaid Diagram)

@@ -73,7 +73,25 @@ cc -o solutions/use_switch solutions/use_switch.c
 ./solutions/use_if
 ./solutions/use_switch
 ```
+```
+Link to use_for.c
 
+```
+
+![use_for.c Compiled](https://github.com/AlexSchweiger827/PP8/blob/master/PP8%20screenshots/Task%201%20compiled.PNG?raw=true)
+
+```
+Link to use_if.c
+
+```
+![use_for.c Compiled](https://github.com/AlexSchweiger827/PP8/blob/master/PP8%20screenshots/Task%201%20compiled.PNG?raw=true)
+
+```
+Link to use_switch.c
+
+
+```
+![use_for.c Compiled](https://github.com/AlexSchweiger827/PP8/blob/master/PP8%20screenshots/Task%201%20compiled.PNG?raw=true)
 ---
 
 ### Task 2: Flowchart Implementation (Mermaid Diagram)

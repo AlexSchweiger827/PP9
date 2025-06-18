@@ -224,34 +224,34 @@ graph TD
 
 flowchart function 2
 ```mermaid
- A[Start: evaluate_sequence(arr, len)] --> B{Initialize state = 0};
-    B --> C{Initialize i = 0};
-    C --> D{i < len?};
+ A[Start: *arr, len] --> B[initialize state = 0]
+    B --> C{Initialize i = 0}
+    C --> D{i > len?}
 
-    D -- No --> H{Is state == 1?};
-    D -- Yes --> E{arr[i] < 0?};
+    D -- Yes --> H{Is state == 1?}
+    D -- No --> E{arr[i] < 0?}
 
-    E -- Yes --> F1[state = -1];
-    E -- No --> E2{arr[i] == 0?};
+    E -- Yes --> F1[state = -1]
+    E -- No --> E2{arr[i] == 0?}
 
-    E2 -- Yes --> F2[state = 0];
-    E2 -- No --> F3[state = 1];
+    E2 -- Yes --> F2[state = 0]
+    E2 -- No --> F3[state = 1]
 
-    F1 --> G{Is state == 1?};
-    F2 --> G;
-    F3 --> G;
+    F1 --> G{Is state == 1?}
+    F2 --> G
+    F3 --> G
 
-    G -- Yes --> K[Break Loop];
-    G -- No --> J[Increment i];
+    G -- Yes --> K[Break Loop]
+    G -- No --> J[Increment i]
 
-    J --> D;
-    K --> H;
+    J --> D
+    K --> H
 
-    H -- Yes --> L[Return true];
-    H -- No --> M[Return false];
+    H -- Yes --> L[Return true]
+    H -- No --> M[Return false]
 
-    L --> N[End];
-    M --> N;
+    L --> N[End]
+    M --> N
    ```
 ---
 

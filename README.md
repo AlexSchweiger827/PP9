@@ -83,21 +83,21 @@ use_for.c compiled and use_for test run
 
 ![use_for.c Compiled](https://github.com/AlexSchweiger827/PP9/blob/master/PP9%20screenshots/use_for%20compiled%20.PNG?raw=true)
 
-```
+
 Link to use_if.c
 
+[use_if.c](https://github.com/AlexSchweiger827/PP9/blob/master/solutions/use_if.c)
 
 
-```
 use_if.c compiled and use_if test run
 
 ![use_if.c Compiled](https://github.com/AlexSchweiger827/PP9/blob/master/PP9%20screenshots/use_if%20compiled.PNG?raw=true)
 
-```
+
 Link to use_switch.c
 
+[use_switch.c](https://github.com/AlexSchweiger827/PP9/blob/master/solutions/use_switch.c)
 
-```
 use_switch.c compiled and use_switch test run
 
 ![use_switch.c Compiled](https://github.com/AlexSchweiger827/PP9/blob/master/PP9%20screenshots/switch_case%20compiled.PNG?raw=true)
@@ -144,14 +144,16 @@ gcc -c solutions/flowchart_impl solutions/flowchart_impl.c
 
 Link to flowchart_impl.c:
 
-
+[flowchart_impl.c](https://github.com/AlexSchweiger827/PP9/blob/master/solutions/flowchart_impl.c)
 
 
 Link to flowchart_impl.h:
 
+[flowchart_impl.h](https://github.com/AlexSchweiger827/PP9/blob/master/solutions/flowchart_impl.h)
 
-Link to main.c
+Link to main.c:
 
+[main.c](https://github.com/AlexSchweiger827/PP9/blob/master/solutions/main.c)
   
 main.c compiled and flowchart_program test run
 

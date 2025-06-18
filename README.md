@@ -73,10 +73,12 @@ cc -o solutions/use_switch solutions/use_switch.c
 ./solutions/use_if
 ./solutions/use_switch
 ```
-```
+
 Link to use_for.c
 
-```
+[use_for.c](https://github.com/AlexSchweiger827/PP9/blob/master/solutions/use_for.c)
+
+
 use_for.c compiled and use_for test run
 
 ![use_for.c Compiled](https://github.com/AlexSchweiger827/PP9/blob/master/PP9%20screenshots/use_for%20compiled%20.PNG?raw=true)

@@ -231,7 +231,7 @@ graph TD
     C --> D{i > len?}
 
     D -- Yes --> H{Is state == 1?}
-    D -- No --> E{arr[i] < 0?}
+    D -- No --> E{ is arr[i] < 0?}
 
     E -- Yes --> P[state = -1]
     E -- No --> O{arr[i] == 0?}

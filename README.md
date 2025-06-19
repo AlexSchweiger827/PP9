@@ -156,7 +156,7 @@ Link to main.c:
 
 [main.c](https://github.com/AlexSchweiger827/PP9/blob/master/solutions/main.c)
   
-main.c compiled and flowchart_program test run
+main.c compiled and flowchart_program test run with int x = 1 and int x = 5 
 
 ![main.c compiled](https://github.com/AlexSchweiger827/PP9/blob/master/PP9%20screenshots/flowchart_impl%20compiled.PNG?raw=true)
 

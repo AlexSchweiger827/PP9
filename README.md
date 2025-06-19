@@ -163,7 +163,73 @@ main.c compiled and flowchart_program test run with int x = 1 and int x = 5
 Reflection:
 
 * **Explain how each flowchart node maps to your C code.**
+  
+Start: X
+in main.c the value will be defined. For example the command in main.c is flowchart(5). Therefore the value of x is 5.
+The function int flowchart (int x) in flowchart_impl.c now operates with this x value.
 
+initialize result= 1
+The integer result is declared in the function int flowchart (int x) in flowchart_impl.c with the value of 1. 
+
+i=1 to x?
+As long as i is not equal x the loop continues and i gets incremented. The incrementation is the last point in the map.
+It is a for loop in the int flowchart (int x) in flowchart_impl.c.
+
+```bash
+The for loop in flowchart_impl.c:
+for (int i= 1; i <= x; i++){
+...
+}
+```
+
+i%2 == 0?
+The decision loop is inside the for loop. This decision loop is a if/else loop in int flowchart (int x).
+```bash
+
+if/else loop in flowchart_impl.c:
+
+  if( i % 2 == 0){
+               result += i;
+        }
+  else{
+                result *= i;
+        }
+```
+if the modulus 2 of the variabel i is 0 the value of i wil be increased by 1.
+
+if modulus 2 of the variable i is not 0 then the variable i stays the same.
+
+After the that comes another if loop. 
+
+result > 1000?
+
+The if loop decides wether the result is bigger than 1000 or not.
+
+```bash
+if loop in flowchart_impl.c:
+
+  if (result > 1000){
+                result -=100;
+        }
+```
+If the result is bigger than 1000, the result should be subtracted by 100.
+
+If the result is not bigger than 1000, it should do nothing. 
+
+Increment i
+This is the end of the for loop.
+The variable i gets incremented and the for loop starts again until i is up to x.
+
+Return result.
+When i is up to x the result should be returned.
+This is the last command of the function int flowchart (int x) in flowchart_impl.c.
+It shows the result of the calculation from the program. 
+
+```bash
+return in flowchart_impl.c:
+
+return result;
+```
 ---
 
 ### Task 3: Code-to-Flowchart

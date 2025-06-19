@@ -299,3 +299,5 @@ flowchart function 2
 ---
 
 **Remember:** Stop after **90 minutes** and record where you stopped.
+
+I finished task 1-2 and started task 3 in 86 minutes. In task 3 I only finished function 1. 

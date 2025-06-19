@@ -229,35 +229,7 @@ graph TD
 
 flowchart function 2
 
-```mermaid
-graph TD
- A[Start: x]--> B[initialize state = 0]
-    B --> C{Initialize i = 0}
-    C --> D{i > len?}
 
-    D -- Yes --> H{Is state == 1?}
-    D -- No --> E{is arr[i] < 0?}
-
-    E -- Yes --> P[state = -1]
-    E -- No --> O{arr[i] == 0?}
-
-    O -- Yes --> Q[state = 0]
-    O -- No --> R[state = 1]
-
-    P --> G{Is state == 1?}
-    Q --> G
-    R --> G
-
-    G -- Yes --> K[Break Loop]
-    G -- No --> J[Increment i]
-
-    J --> D
-    K --> H
-
-    H -- Yes --> L[Return true]
-    H -- No --> M[Return false]
-
-   ```
 ---
 
 **Remember:** Stop after **90 minutes** and record where you stopped.
